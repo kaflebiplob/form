@@ -64,7 +64,7 @@
             }
         }
         ?>
-        <h1 class="form-group"> Registration form</h1>
+        <h3 class="form-group"> Registration form</h3>
         <form action="registration.php" method="post">
             <div class="form-group">
                 <input type="text" class="form-control" name="name" placeholder="enter your name">
