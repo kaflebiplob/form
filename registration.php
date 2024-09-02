@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (isset($_SESSION["user"])) {
+    header("Location: index.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -84,6 +90,12 @@
             </div>
 
         </form>
+        <div>
+            <p>
+                Already regristered?
+                <a href="login.php">login here</a>
+            </p>
+        </div>
     </div>
 
 </body>
